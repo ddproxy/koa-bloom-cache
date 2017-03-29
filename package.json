@@ -1,0 +1,49 @@
+{
+  "name": "koa-bloom-cache",
+  "description": "Redis cache middleware with bloom filter for koa.",
+  "version": "0.0.1",
+  "private": false,
+  "main": "lib/index.js",
+  "author": {
+    "name": "Jon West",
+    "email": "jon.c.west@outlook.comß"
+  },
+  "scripts": {
+    "test": "DEBUG=koa-generic-cache:* ./node_modules/.bin/mocha --harmony --no-timeouts test/*.js"
+  },
+  "keywords": [
+    "koa",
+    "router",
+    "route",
+    "routing",
+    "cache",
+    "bloom",
+    "redis",
+    "middleware"
+  ],
+  "dependencies": {
+    "bloomfilter-redis": "ddproxy/bloomfilter-redis#options",
+    "co-redis": "^2.1.1",
+    "path-to-regexp": "^1.7.0",
+    "readall": "^1.0.0",
+    "redis": "^2.4.3"
+  },
+  "devDependencies": {
+    "async": "*",
+    "eslint": "^3.18.0",
+    "eslint-config-standard": "^7.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.1.1",
+    "koa": "*",
+    "mocha": "*",
+    "supertest": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ddproxy/koa-bloom-cache.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ddproxy/koa-bloom-cache/issues"
+  }
+}
