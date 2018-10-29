@@ -6,7 +6,7 @@
   "main": "lib/index.js",
   "author": {
     "name": "Jon West",
-    "email": "jon.c.west@outlook.comß"
+    "email": "jon.c.west@outlook.com"
   },
   "scripts": {
     "test": "DEBUG=koa-generic-cache:* ./node_modules/.bin/mocha --harmony --no-timeouts test/*.js"
